@@ -1,0 +1,105 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	#header h1 {
+		font-size: 80px;
+	}
+	#header h3 {
+		font-size: 50px;
+	}	
+	#header hr {
+		width: 450px;
+	}
+	.imgPart {
+		display: none;
+	}
+	#footer h2 {
+		padding: 20px !important;	
+	}
+	#footer {
+		height: 700px;	
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	#header h1 {
+		font-size: 60px;
+		text-align: center;
+	}
+	#header h3 {
+		font-size: 40px;
+		text-align: center;
+	}
+	#header hr {
+		width: 370px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#header p {
+		text-align: center;
+	}
+
+	#main {
+		height: 1800px;	
+	}
+	#footer {
+		height: 800px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	#header {
+		padding-top: 30%;
+	}
+	#header h1 {
+		font-size: 40px;
+	}
+	#main {
+		height: 2000px;	
+	}
+}
+
+@media only screen and (max-width : 370px) {
+	#main {
+		height: 2300px;	
+	}
+}
+@media only screen and (max-width : 330px) {
+	#main {
+		height: 2600px;	
+	}
+}
+@media only screen and (max-width : 280px) {
+	#main {
+		height: 2900px;	
+	}
+}
+
+
+@media only screen and (max-height : 645px) {
+
+}
+
+@media only screen and (min-height : 600px) {
+
+}
+
+@media only screen and (max-height : 600px) {
+}
+
+@media only screen and (max-height : 500px) {
+
+}
+
+
+
+

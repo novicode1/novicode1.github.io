@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400');
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+h1, h2, h3, h4, h5, p, a{
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+.text-center {
+	text-align: center;
+}
+
+#bg {
+	position:fixed;
+  z-index: -1;
+  top:0;
+  left:0; 
+  min-width:100%;
+  min-height:100%;
+}
+
+#header { 
+	padding-top: 12%;
+}
+
+
+#header h1 {
+	font-size: 100px;
+	letter-spacing: 2px;
+	color: #ffa60a;
+	margin: 0 0 0 -8px;
+	line-height: 40px;
+}
+
+#header h3 {
+	font-size: 60px;
+	letter-spacing: 2px;
+	color: rgb(255, 255, 255);
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 100;
+	line-height: 30px;
+	margin: 80px 0px 0px -5px;
+}
+
+.orange {
+	color: #ffa60a;
+}
+
+#header p {
+	font-size: 25px;
+	color: #ffa60a;
+	margin-top: 60px;
+}
+
+#header hr {
+	size: 5px;
+	border-top: 2px solid #eee;
+	width: 520px;
+}
+
+
+#main {
+	height: 1500px;	
+}
+
+#main h5 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+#firstPart {
+	background-color: #fff;
+	margin: 120px 0 120px;
+}
+
+#firstPart h5 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+
+/*        не работает */
+.pShadow {
+	-webkit-box-shadow: inset 0px 0px 300px 176px rgba(0,0,0,0.40);
+  -moz-box-shadow: inset 0px 0px 300px 176px rgba(0,0,0,0.40);
+  box-shadow: inset 0px 0px 500px 250px rgba(0,0,0,0.40);
+}
+
+.textPart p {
+	color: #fff;
+	font-size: 20px;
+}
+
+.imgPart img{
+  background-attachment: relative;
+  background-position: center center;
+  height: 70%;
+  width: 65%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: 50px;	
+}
+
+.block {
+	margin-top:50px;
+	margin-bottom: 50px;
+	float: left;	
+}
+
+#block3 {
+	margin-top: 50px;
+}
+
+#firstPart h2 {
+	font-size: 26px;
+}
+
+#footer {
+	background-color: #1b2c3e;
+	width: 100%;
+}
+#footer h2 {
+	font-size: 26px;
+	color: #fff;
+}
+#footer p {
+	font-size: 20px;
+	color: #fff;
+	margin: 40px;
+}
+
+#footer i {
+	margin: 5px;
+}
+
+#copyright {
+	background-color: #172737;
+}
+#copyright i {
+	margin-top: 9px;
+	margin-left: 10px;
+	float: right;
+}
+
+#copyright p {
+	font-size: 15px;
+	color: #fff;
+	float: left;
+}
+
+#creator {
+	float: right;
+	font-size: 15px;
+	color: #fff;
+	margin-top: 15px;
+}
+
