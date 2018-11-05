@@ -128,7 +128,7 @@ header {
 	width: 850px;
 	margin: auto;
 	padding: 30px 40px 60px 160px;
-	background: url(/images/bg_about.png) 70px 40px  no-repeat, url(/images/bg_promo.png);
+	background: url(../images/bg_about.png) 70px 40px  no-repeat, url(../images/bg_promo.png);
 	border-radius: 10px;
 }
 
