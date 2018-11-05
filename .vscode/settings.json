@@ -1,0 +1,12 @@
+{
+	"css.validate": false,
+	"less.validate": false,
+	"scss.validate": false,
+	"stylelint.enable": true,
+	"stylelint.configOverrides": {
+		"fix": true
+	},
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"stylefmt.config": "./stylelintrc.js"
+}
