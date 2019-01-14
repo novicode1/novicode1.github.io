@@ -1,12 +1,10 @@
 {
-	"name": "frontend-css-fairhyip",
+	"name": "task-frontend-buttons",
 	"private": true,
-	"description": "Write styles for an existing HTML",
+	"description": "Create a button component",
 	"author": "Constantine Genchevsky",
 	"version": "1.0.0",
-	"dependencies": {
-		"reset.css": "2.0.2"
-	},
+	"dependencies": {},
 	"devDependencies": {
 		"neutrino": "~8.3.0",
 		"@atomspace/stylelint": "~1.1.1",
@@ -15,7 +13,6 @@
 	},
 	"scripts": {
 		"start": "browser-sync start --server \"src\" --files \"src\" --open \"external\" --no-notify --no-ghost-mode",
-		"test": "htmlhint src/**/*.html",
-		"pretest": "neutrino stylelint --fix"
+		"test": "neutrino stylelint --fix"
 	}
 }

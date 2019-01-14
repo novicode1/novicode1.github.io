@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	font-family: 'Futura Std';
+	src:
+		local('FuturaStd-Book'),
+		local('Futura Std Book'),
+		url('fonts/futurastd-book.woff') format('woff'),
+		url('fonts/futurastd-book.ttf') format('truetype');
+}
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: condensed;
+	font-family: 'Futura Std';
+	src:	
+		local('FuturaStd-Condensed'),
+		local('Futura Std Condensed'),
+		url('fonts/futurastd-condensed.woff') format('woff'),
+		url('fonts/futurastd-condensed.ttf') format('truetype');
+}
+
+html {
+	height: 100%;
+	overflow: auto;
+}
+
+body {
+	height: 100%;
+	box-sizing: border-box;
+	padding: 25px;
+	background: #dcdcdc;
+	font-family: 'Futura Std', Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+}

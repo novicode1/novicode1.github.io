@@ -1,0 +1,98 @@
+button {
+	/* custom properties */
+	--button-background-color: #0085b8;
+	--button-text-color: #fff;
+	--button-border: none;
+	--button-active-background-color: #0085b8;
+
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+	cursor: default;
+	display: inline-block;
+   	text-align: center;
+	text-decoration: none;
+	padding: 0.4em 1.5em;
+	color: var(--button-text-color);
+	position: relative;
+}
+
+button::before {
+	border: var(--button-border);
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	background: var(--button-background-color);
+	transform: skew(-10deg);
+}
+
+button:active:before {
+	background-color: var(--button-active-background-color);
+}
+
+button:hover {
+	outline: none;
+	outline-offset: none;
+}
+
+button:not([style]) {
+	font-size: 24px;
+}
+
+
+.button {
+	/* custom properties */
+	--button-background-color: #0085b8;
+	--button-text-color: #fff;
+	--button-border: none;
+	--button-active-background-color: #0085b8;
+
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+	cursor: default;
+	display: inline-block;
+   	text-align: center;
+	text-decoration: none;
+	padding: 0.4em 1.5em;
+	color: var(--button-text-color);
+	position: relative;
+}
+
+.button::before {
+	border: var(--button-border);
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	background: var(--button-background-color);
+	transform: skew(-10deg);
+}
+
+.button:active:before {
+	background-color: var(--button-active-background-color);
+}
+
+.button:hover {
+	outline: none;
+	outline-offset: none;
+}
+
+.button:not([style]) {
+	font-size: 24px;
+}
+
+.button {
+	cursor: pointer;
+}

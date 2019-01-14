@@ -8,5 +8,12 @@
 	},
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
-	"stylefmt.config": "./stylelintrc.js"
+	"editor.insertSpaces": false,
+	"files.eol": "\n",
+	"files.autoSaveDelay": 100,
+	"htmlhint.enable": true,
+	"htmlhint.documentSelector": [
+		"html",
+		"htm"
+	]
 }
