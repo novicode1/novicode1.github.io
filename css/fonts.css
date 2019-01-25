@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'SF UI Display';
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('SFUIDisplay Light'),
+        local('SFUIDisplay-Light'),
+        url("../fonts/SF/SFUIDisplay-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('SFUIDisplay Medium'),
+        local('SFUIDisplay-Medium'),
+        url("../fonts/SF/SFUIDisplay-Medium.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: 'Oswald';
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('Oswald Regular'),
+        local('Oswald-Regular'),
+        url("../fonts/Oswald/Oswald-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('Oswald Medium'),
+        local('Oswald-Medium'),
+        url("../fonts/Oswald/Oswald-Medium.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('Oswald Light'),
+        local('Oswald-Light'),
+        url("../fonts/Oswald/Oswald-Light.ttf") format("truetype");
+}

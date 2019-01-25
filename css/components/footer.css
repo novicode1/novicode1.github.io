@@ -1,0 +1,39 @@
+
+.footer {
+    flex-shrink: 0;
+}
+
+.footer > img {
+    width: 3em;
+    height: auto;
+    margin: 3em 0 .7em 0;
+}
+
+.footer h6 {
+    margin-bottom: 3em;
+}
+
+.footer-email-contact {
+    font-size: .8em;
+    line-height: 21px;
+}
+
+.footer-email-contact:hover {
+    cursor: pointer;
+}
+
+.footer-icons-row img {
+    margin: .65em .35em 1em;
+    height: .9em;
+}
+
+.footer-icons-row img:hover {
+    cursor: pointer;
+}
+
+.footer-legal-copyright {
+    line-height: 1.5em;
+    font-size: .65em;
+    margin-bottom: 15px;
+}
+
