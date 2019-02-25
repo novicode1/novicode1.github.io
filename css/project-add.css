@@ -1,4 +1,57 @@
 
+.content .invision {
+    --background-color: #291d50;
+    --height-main-photo: 12em;
+    --margin-top-main-photo: 0em;
+
+    --primary-header-color: #E8AD42;
+    --header-color: white;
+
+    --border-top-description: #D8BDBD;
+    --description-text-color: white;
+    --description-text-weight: 300;
+    --border-bottom-description: white;
+
+    --button-color: white;
+    --button-text-color: black;
+    --button-text-weight: 400;
+}
+
+.content .tango {
+    --background-color: rgb(34, 43, 56);
+    --height-main-photo: 12em;
+    --margin-top-main-photo: 1em;
+
+    --primary-header-color: #E8AD42;
+    --header-color: white;
+
+    --border-top-description: #D8BDBD;
+    --description-text-color: white;
+    --description-text-weight: 300;
+    --border-bottom-description: white;
+
+    --button-color: white;
+    --button-text-color: black;
+    --button-text-weight: 400;
+}
+
+.content .porsche {
+    --background-color: #B5C4C1;
+    --height-main-photo: 6em;
+    --margin-top-main-photo: 6em;
+
+    --primary-header-color: #32323E;
+    --header-color: #32323E;
+
+    --border-top-description: #4D3A00;
+    --description-text-color: #32323E;
+    --border-bottom-description: #32323E;
+
+    --button-color: #757575;
+    --button-text-color: white;
+    --button-text-weight: 300;
+}
+
 .content .startup1 {
     --background-color: black;
     --height-main-photo: 8.1em;
@@ -74,7 +127,7 @@
 .content .impact-hub {
     --background-color: white;
     --height-main-photo: 12em;
-    --margin-top-main-photo: 2.35em;
+    --margin-top-main-photo: 0em;
 
     --primary-header-color: #812927;
     --header-color: #F78A3C;
@@ -86,5 +139,23 @@
 
     --button-color: #812927;
     --button-text-color: white;
+    --button-text-weight: 300;
+}
+
+.content .service-mobile {
+    --background-color: white;
+    --height-main-photo: 12em;
+    --margin-top-main-photo: 2em;
+
+    --primary-header-color: #FFB500;
+    --header-color: #121212;
+
+    --border-top-description: #4141412f;
+    --description-text-color: black;
+    --description-text-weight: 300;
+    --border-bottom-description: #121212;
+
+    --button-color: #FFB500;
+    --button-text-color: #121212;
     --button-text-weight: 300;
 }
