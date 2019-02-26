@@ -223,8 +223,4 @@ strong {
 }
 
 
-@media (max-device-width: 480px) {
-    body {
-        font-size: 60px;
-    }
-}
+

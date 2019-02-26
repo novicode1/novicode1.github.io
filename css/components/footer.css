@@ -37,3 +37,8 @@
     margin-bottom: 15px;
 }
 
+@media (max-device-width: 480px) {
+    .footer {
+        width: 100%;
+    }
+}
