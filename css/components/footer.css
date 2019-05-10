@@ -3,6 +3,10 @@
     flex-shrink: 0;
 }
 
+.footer a {
+    color: #010101;
+}
+
 .footer > img {
     width: 3em;
     height: auto;
@@ -37,3 +41,8 @@
     margin-bottom: 15px;
 }
 
+@media (max-device-width: 480px) {
+    .footer {
+        width: 100%;
+    }
+}

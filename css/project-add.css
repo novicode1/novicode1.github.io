@@ -1,11 +1,28 @@
+.content .ricco {
+    --background-color: rgb(255, 255, 255); /**/
+    --height-main-photo: 12em;/**/
+    --margin-top-main-photo: 0em;/**/
+
+    --primary-header-color: #FF9B42;/**/
+    --header-color: #1b1b1b;/**/
+
+    --border-top-description: rgb(253, 220, 191);
+    --description-text-color: #1b1b1b;
+    --description-text-weight: 300;
+    --border-bottom-description: #FDB26F;
+
+    --button-color: #FDB26F;
+    --button-text-color: white;
+    --button-text-weight: 300;
+}
 
 .content .invision {
-    --background-color: #291d50;
-    --height-main-photo: 12em;
-    --margin-top-main-photo: 0em;
+    --background-color: #523f92; /**/
+    --height-main-photo: 12em;/**/
+    --margin-top-main-photo: 0em;/**/
 
-    --primary-header-color: #E8AD42;
-    --header-color: white;
+    --primary-header-color: #E8AD42;/**/
+    --header-color: white;/**/
 
     --border-top-description: #D8BDBD;
     --description-text-color: white;
@@ -16,6 +33,7 @@
     --button-text-color: black;
     --button-text-weight: 400;
 }
+
 
 .content .tango {
     --background-color: rgb(34, 43, 56);
