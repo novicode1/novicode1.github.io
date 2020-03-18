@@ -3,6 +3,8 @@
 
 **Лабораторные работы**
 
+1. Сдано
+2. Сдано
 3. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab3) | [Демо](https://novicode1.github.io/lab3/src/index.html)
 4. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab4) | [Демо](https://novicode1.github.io/lab4/src/index.html)
 5. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab5) | [Демо](https://novicode1.github.io/lab5/src/index.html)
@@ -18,6 +20,7 @@
 
 **Тесты**
 
+1. Сдано
 2. [Тест](./test2) | [Демо](./test2/src/index.html)
 3. [Тест](./test3) | [Демо](./test3/src/index.html)
 4. [Тест](./test4) | [Демо](./test4/src/index.html)
