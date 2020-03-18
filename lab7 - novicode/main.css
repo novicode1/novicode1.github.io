@@ -1,0 +1,65 @@
+
+
+.first-block {
+  margin: 50px;
+}
+.bg-image {
+  background-image: url("image-1.png");
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
+
+.third-block {
+  width: 300px;
+  height: 200px;
+  background: lightblue;
+  padding: 30px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#prompt-form {
+  display: inline-block;
+  padding: 15px;
+  background: white;
+  width: 200px;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+}
+
+#prompt-form-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#prompt-form-container:before {
+  display: inline-block;
+  height: 100%;
+  content: '';
+  vertical-align: middle;
+}
+
+#cover-div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9000;
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  opacity: 0.3;
+}
+
+#prompt-form input[name="text"] {
+  display: block;
+  margin: 10px;
+  width: 180px;
+}

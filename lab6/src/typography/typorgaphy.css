@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Futura';
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('Futura-LightC'),
+        local('Futura LightC'),
+        url(./fonts/FuturaLightC.woff2) format('woff2'),
+        url(./fonts/FuturaLightC.woff) format('woff'),
+        url(./fonts/FuturaLightC.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('Futura-BookC'),
+        local('Futura BookC'),
+        url(./fonts/FuturaBookC.woff2) format('woff2'),
+        url(./fonts/FuturaBookC.woff) format('woff'),
+        url(./fonts/FuturaBookC.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+    src: local('Futura-BookC-Italic'),
+        local('Futura BookC Italic'),
+        url(./fonts/FuturaBookC-Italic.woff2) format('woff2'),
+        url(./fonts/FuturaBookC-Italic.woff) format('woff'),
+        url(./fonts/FuturaBookC-Italic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('Futura-MediumC'),
+        local('Futura MediumC'),
+        url(./fonts/FuturaMediumC.woff2) format('woff2'),
+        url(./fonts/FuturaMediumC.woff) format('woff'),
+        url(./fonts/FuturaMediumC.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('Futura-DemiC'),
+        local('Futura DemiC'),
+        url(./fonts/FuturaDemiC.woff2) format('woff2'),
+        url(./fonts/FuturaDemiC.woff) format('woff'),
+        url(./fonts/FuturaDemiC.ttf) format('truetype');
+}

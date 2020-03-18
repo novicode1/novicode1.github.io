@@ -1,0 +1,16 @@
+th {
+    text-align: center;
+}
+
+td {
+    height: 30px;
+}
+
+.menu-table {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.menu-table td {
+    text-align: center;
+}

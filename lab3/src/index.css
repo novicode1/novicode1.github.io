@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, serif;
+}
+
+.main-table {
+    margin: 0 auto;
+}
+
+.main-table tr {
+    text-align: center;
+}
+
+.main-table td {
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+section {
+    height: 80vh;
+}

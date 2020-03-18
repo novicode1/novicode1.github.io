@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="revisit-after" content="1 minute">
+    <meta charset="UTF-8">
+    <meta name="robots" content="ALL">
+    <meta name="description" content="Menu for lessons">
+    <meta name="keywords" content="menu, lesson">
+    <meta name="author" content="Daniil Novikov">
+    <title>Lessons menu</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <a href="menu.html">Расписание</a><br>
+    <a href="redirect.html">Страница с перенаправлением</a><br><br>
+    <a href="#section1">Ссылка на секцию 1</a>
+    <a href="#section2">Ссылка на секцию 2</a>
+    <table class="main-table" cellspacing="0" border="1">
+        <tr>
+            <td bgcolor="yellow">1</td>
+            <td>2</td>
+            <td bgcolor="red">3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td bgcolor="#83CAFF">5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td bgcolor="green">7</td>
+            <td>8</td>
+            <td bgcolor="grey">9</td>
+        </tr>
+        <tr>
+            <td colspan="3">0</td>
+        </tr>
+        <tr>
+            <td colspan="3" bgcolor="red"></td>
+        </tr>
+    </table>
+
+    <section id="section1">
+        <img src="./problems-on-map.jpg" width="400" height="400" alt="Planets" usemap="#planetmap">
+
+        <map name="planetmap">
+          <area shape="rect" coords="0,0,200,200" alt="Sun" href="https://picsum.photos">
+          <area shape="rect" coords="0,200,200,400" alt="Mercury" href="https://www.w3schools.com/tags/tag_area.asp">
+          <area shape="circle" coords="300,300,50" alt="Venus" href="https://picsum.photos">
+        </map>
+    </section>
+    <section id="section2">секция 2</section>
+</body>
+</html>
