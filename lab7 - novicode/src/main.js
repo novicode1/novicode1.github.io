@@ -1,20 +1,24 @@
+let colors = ['red', 'blue', 'green', 'black', 'pink'];
 
-changeImg = () => {
+function changeColor() {
+  document.body.style.background = colors[getRandomInt(5)];
+};
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
+function changeImg () {
   document.getElementById('first-img').style.backgroundImage = "url('image-2.png')";
 };
 
-changeBlock = () => {
-  const elements = document.getElementsByClassName('third-block');
-  for (let i = 0; i < elements.length; i++) {
-    elements[i].style.width = '400px';
-    elements[i].style.backgroundColor = "orange";
-    elements[i].innerHTML = "Ура!";
-  }
+function changeBlock () {
+  let textBlock = document.getElementsByClassName('text-block')[0];
+  textBlock.style.width = '400px';
+  textBlock.style.backgroundColor = colors[getRandomInt(5)];
+  textBlock.innerHTML = "Ура!";
 };
 
-
-// Показать полупрозрачный DIV, чтобы затенить страницу
-// (форма располагается не внутри него, а рядом, потому что она не должна быть полупрозрачной)
 function showCover() {
   let coverDiv = document.createElement('div');
   coverDiv.id = 'cover-div';
@@ -38,10 +42,11 @@ function showPrompt(text, callback) {
     hideCover();
     container.style.display = 'none';
     document.onkeydown = null;
+    if (value === null) return;
     callback(value);
   }
 
-  form.onsubmit = function() {
+  form.onsubmit = function(event) {
     let value = form.text.value;
     if (value === '') return false;
 
@@ -85,13 +90,3 @@ document.getElementById('show-button').onclick = function() {
     alert("Привет, " + value + "! Рады тебя видеть :)");
   });
 };
-
-const colors = ['white', 'blue', 'green', 'black', 'pink'];
-let color;
-
-changeColor = () => {
-  color = colors.shift();
-  colors.push(color);
-  document.body.style.background = color;
-};
-

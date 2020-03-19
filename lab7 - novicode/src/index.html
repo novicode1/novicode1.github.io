@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lab 7</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <section class="first-block">
+    <div class="bg-image" onclick="changeImg()" id="first-img"></div>
+  </section>
+
+  <button type="button" onclick="changeBlock()" class="btn btn-secondary">Изменить текст</button>
+
+  <section class="text-block">
+    <span>Какой-то текст</span>
+  </section>
+
+  <button type="button" id="show-button" class="btn btn-success">Открыть форму</button>
+
+  <div id="prompt-form-container">
+    <form id="prompt-form">
+      <div id="prompt-message"></div>
+      <input name="text" type="text"  class="form-control mb-3">
+      <button type="submit" class="btn btn-primary">Ок</button>
+      <button type="button" name="cancel" class="btn btn-secondary">Отмена</button>
+    </form>
+  </div>
+
+  <button class="btn btn-primary" onclick="changeColor()">Поменять фон</button>
+
+  <script src="main.js"></script>
+</body>
+</html>
