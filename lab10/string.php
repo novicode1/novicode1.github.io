@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php include("includes/a_config.php");?>
 <html>
 	<head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -36,7 +37,7 @@
 
           return $result;
         }
-        echo shorten_string('1. я купил бронетранспортер вчера', 7)
+        echo '<span class="alert alert-warning">' . shorten_string('я купил бронетранспортер вчера', 7) . '</span>'
       ?>
       <hr>
       <?php

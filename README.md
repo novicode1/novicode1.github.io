@@ -12,7 +12,7 @@
 7. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab7) | [Демо](https://novicode1.github.io/lab7/src/index.html)
 8. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab8) | [Демо](https://novicode1.github.io/lab8/src/index.html)
 9. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab9) | [Демо](https://novicode1.github.io/lab9/src/index.html)
-10. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab10) | [Демо](https://novicode1.github.io/lab10/src/index.html)
+10. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab10) | Гитхаб, к сожалению, не поддерживает php 
 11. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab11) | [Демо](https://novicode1.github.io/lab11/src/index.html)
 12. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab12) | [Демо](https://novicode1.github.io/lab12/src/index.html)
 13. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab13) | [Демо](https://novicode1.github.io/lab13/src/index.html)
