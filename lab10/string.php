@@ -84,7 +84,7 @@
           }
         }
 
-        echo "Средняя длина " , $word_count , " слов это, приблизительно, " , round($word_length / $word_count, 0) , " символов.";
+        echo "Средняя длина " , $word_count , " слов, приблизительно, " , round($word_length / $word_count, 0) , " символов.";
       ?>
       <hr>
     </h6>
