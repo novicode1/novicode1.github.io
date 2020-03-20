@@ -1,5 +1,5 @@
 # Лабораторные и тестовые работы
-###  *Новиков Даниил, АИ-183*
+###  Новиков Даниил, АИ-183
 
 **Лабораторные работы**
 
@@ -13,19 +13,24 @@
 8. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab8) | [Демо](https://novicode1.github.io/lab8/src/index.html)
 9. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab9) | [Демо](https://novicode1.github.io/lab9/src/index.html)
 10. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab10) | Гитхаб, к сожалению, не поддерживает php
+
+![alt text](./images/lab10.png "Logo Title Text 1")
+
 11. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab11) | Гитхаб, к сожалению, не поддерживает php
+
+![alt text](./images/lab11.png "Logo Title Text 1")
+
 12. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab12) | Гитхаб, к сожалению, не поддерживает php
+
+![alt text](./images/lab12.png "Logo Title Text 1")
+
 13. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab13) | Гитхаб, к сожалению, не поддерживает php
+
+![alt text](./images/lab13.png "Logo Title Text 1")
+
 14. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab14) | Гитхаб, к сожалению, не поддерживает php
 
-**Тесты**
-
-1. Сдано
-2. [Код](./test2) | [Демо](./test2/src/index.html)
-3. [Код](./test3) | [Демо](./test3/src/index.html)
-4. [Код](./test4) | [Демо](./test4/src/index.html)
-5. [Код](./test5) | [Демо](./test5/src/index.html)
-
+![alt text](./images/lab14.png "Logo Title Text 1")
 ***
 
 Спасибо большое за потраченное время на проверку😃!
