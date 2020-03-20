@@ -41,11 +41,6 @@ h4 {
     margin: 5.5em 0 3.5em;
 }
 
-.content {
-    margin-top: 140px;
-    line-height: 2.55em;
-}
-
 strong {
     font-family: "SF UI Display", sans-serif;
     font-weight: normal;
@@ -59,13 +54,12 @@ strong {
     padding-bottom: 10%;
 }
 
-.content .project-item {
+.wrapper .project-item {
     margin: 0 auto;
     background-color: var(--background-color);
     border-radius: 15px;
     overflow: hidden;
     position: relative;
-    padding: 0 0 2.5em 0;
     width: 37.083em;
     margin-bottom: 1em;
     box-shadow: 0 5px 20px rgba(170, 170, 170, 0.288);
@@ -76,9 +70,7 @@ strong {
     font-size: 1.583em;
     font-family: "Oswald", sans-serif;
     font-weight: normal;
-    text-align: left;
     margin-top: 1.757em;
-    margin-left: 2.297em;
 }
 
 .project-item .project-sidebar {
@@ -103,6 +95,10 @@ strong {
     margin-top: var(--margin-top-main-photo);
     margin-right: 10em;
     max-height: var(--height-main-photo);
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    display: block;
 }
 
 .project-description {
@@ -115,6 +111,10 @@ strong {
     line-height: 1.2em;
     padding: 1.6em 0;
     text-align: left;
+}
+
+.porsche {
+    --background-color: #B6C4C1;
 }
 
 .project-sidebar .project-info-button {
@@ -137,6 +137,15 @@ strong {
 .block-hidden {
     visibility: hidden;
     display: none;
+    width: 0;
+    height: 0;
+    padding: 0;
+}
+
+.project-item > span {
+    padding-left: 1.2em;
+    text-align: center;
+    display: block;
 }
 
 .project-item > a {
@@ -155,12 +164,13 @@ strong {
 .project-item > a:after {
     content: '';
     position: absolute;
-    top: 0;
+    top: 50%;
+    transform: translate(-0.5em, -50%);
     right: -1.4em;
     height: 1em;
     width: 1em;
-    margin-top: 1.3em;
     background-image: url("../../images/icons/arrowlink.svg");
+    background-position: center;
     background-size: .4em;
     background-repeat: no-repeat;
 }
@@ -183,11 +193,12 @@ strong {
         background-color: #f2f2f2;
     }
 
-    .content .project-item {
+    .wrapper .project-item {
         border-radius: 0px;
         width: 100%;
         padding: 1em 0;
         box-shadow: none;
+        background: #fff;
     }
 
     .project-item > img {
@@ -201,6 +212,9 @@ strong {
         line-height: 1em;
         font-weight: 300;
         margin-bottom: .5em;
+        width: initial;
+        height: initial;
+        padding: initial;
     }
 
     .block-hidden {

@@ -12,12 +12,14 @@ body {
     cursor: default;
     display: flex;
     flex-direction: column;
-    font-size: 24px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: left;
 }
 
 h1 {
     line-height: 2em;
-    font-size: .95em;
+    font-size: 1.3em;
 }
 
 h3 {
@@ -69,17 +71,15 @@ strong {
     white-space: pre;
 }
 
-.content {
-    padding-top: 140px;
-    background: url("../../images/icons/arrowdown.svg") no-repeat 50% 0%;
+.spotlight {
+    padding: 20vh 0 40vh;
+    background: url("../../images/icons/arrowdown.svg") no-repeat 50% 80%;
     background-size: 1.8em;
-    line-height: 2.55em;
-    font-size: .83em;
 }
 
-.content .work-skills {
+.work-skills {
     padding: 1px 10%;
-    text-align: left;
+    text-align: center;
 }
 
 .content .work-skills p {
@@ -96,6 +96,7 @@ strong {
 .content .work-experience {
     float: left;
     width: 100%;
+    text-align: center;
 }
 
 .content .work-experience p {
@@ -104,6 +105,7 @@ strong {
 
 .work-experience a {
     display: inline-block;
+    vertical-align: middle;
     position: relative;
     color: #0070C9;
     margin: 0 auto;
@@ -115,17 +117,67 @@ strong {
     color: #3296e7;
 }
 
-.work-experience a:after {
-    content: '';
-    position: absolute;
-    height: 1em;
-    width: 1em;
-    margin-top: 1em;
-    margin-left: .4em;
-    background-image: url("../../images/icons/arrowlink.svg");
-    background-size: .4em;
-    background-repeat: no-repeat;
+form {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 5px 20px rgba(170, 170, 170, 0.288);
+    padding: 40px 24px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 1em;
 }
+
+.alert-success h1 {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.alert-success {
+    padding: 3em;
+    background-color: rgb(164, 255, 195);
+    box-shadow: 0 5px 20px rgba(170, 170, 170, 0.288);
+}
+
+b {
+    font-weight: 500;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"] {
+    border-radius: 3em;
+    margin-top: 1em;
+    height: 2.5em;
+    padding: 1em;
+    box-sizing: border-box;
+    border: 1px solid rgb(204, 204, 204);
+    width: 100%;
+    display: block;
+    font-size: 16px;
+}
+
+.submit-button {
+    background-color: rgb(255, 117, 4);
+    color: #fff;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    margin: 0 auto;
+}
+
+.radio {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 
 
 @media (max-device-width: 1170px) {
@@ -184,7 +236,7 @@ strong {
     .content .work-skills {
         padding: 1px 0;
     }
-    
+
     .header {
         width: 100%;
         text-align: center;

@@ -1,21 +1,34 @@
 <?php
 class Route
 {
-
 	static function start()
 	{
 		$controller_name = 'Main';
 		$action_name = 'index';
-
 		$routes = explode('/', $_SERVER['REQUEST_URI']);
 
-		if ( !empty($routes[1]) )
-		{
-			$controller_name = $routes[1];
+
+		if ( !empty($routes[1]) ) {
+			$str=strpos($routes[1], "?");
+			if ( $str) {
+				$routes[1]=substr($routes[1], 0, $str);
+				$controller_name = $routes[1];
+			}
+			else {
+				$controller_name = $routes[1];
+			}
 		}
-		if ( !empty($routes[2]) )
-		{
-			$action_name = $routes[2];
+
+		if ( !empty($routes[0]) ) {
+			$str=strpos($routes[0], "?");
+
+			if ( $str ) {
+				$routes[0]=substr($routes[0], 0, $str);
+				$controller_name = $routes[0];
+			}
+			else {
+				$controller_name = $routes[0];
+			}
 		}
 
 		$model_name = 'Model_'.$controller_name;
