@@ -12,19 +12,19 @@
 7. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab7) | [Демо](https://novicode1.github.io/lab7/src/index.html)
 8. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab8) | [Демо](https://novicode1.github.io/lab8/src/index.html)
 9. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab9) | [Демо](https://novicode1.github.io/lab9/src/index.html)
-10. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab10) | Гитхаб, к сожалению, не поддерживает php 
-11. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab11) | [Демо](https://novicode1.github.io/lab11/src/index.html)
-12. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab12) | [Демо](https://novicode1.github.io/lab12/src/index.html)
-13. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab13) | [Демо](https://novicode1.github.io/lab13/src/index.html)
-14. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab14) | [Демо](https://novicode1.github.io/lab14/src/index.html)
+10. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab10) | Гитхаб, к сожалению, не поддерживает php
+11. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab11) | Гитхаб, к сожалению, не поддерживает php
+12. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab12) | Гитхаб, к сожалению, не поддерживает php
+13. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab13) | Гитхаб, к сожалению, не поддерживает php
+14. [Код](https://github.com/novicode1/novicode1.github.io/tree/master/lab14) | Гитхаб, к сожалению, не поддерживает php
 
 **Тесты**
 
 1. Сдано
-2. [Тест](./test2) | [Демо](./test2/src/index.html)
-3. [Тест](./test3) | [Демо](./test3/src/index.html)
-4. [Тест](./test4) | [Демо](./test4/src/index.html)
-5. [Тест](./test5) | [Демо](./test5/src/index.html)
+2. [Код](./test2) | [Демо](./test2/src/index.html)
+3. [Код](./test3) | [Демо](./test3/src/index.html)
+4. [Код](./test4) | [Демо](./test4/src/index.html)
+5. [Код](./test5) | [Демо](./test5/src/index.html)
 
 ***
 
