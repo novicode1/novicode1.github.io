@@ -1,0 +1,179 @@
+.content .ricco {
+    --background-color: rgb(255, 255, 255); /**/
+    --height-main-photo: 12em;/**/
+    --margin-top-main-photo: 0em;/**/
+
+    --primary-header-color: #FF9B42;/**/
+    --header-color: #1b1b1b;/**/
+
+    --border-top-description: rgb(253, 220, 191);
+    --description-text-color: #1b1b1b;
+    --description-text-weight: 300;
+    --border-bottom-description: #FDB26F;
+
+    --button-color: #FDB26F;
+    --button-text-color: white;
+    --button-text-weight: 300;
+}
+
+.content .invision {
+    --background-color: #523f92; /**/
+    --height-main-photo: 12em;/**/
+    --margin-top-main-photo: 0em;/**/
+
+    --primary-header-color: #E8AD42;/**/
+    --header-color: white;/**/
+
+    --border-top-description: #D8BDBD;
+    --description-text-color: white;
+    --description-text-weight: 300;
+    --border-bottom-description: white;
+
+    --button-color: white;
+    --button-text-color: black;
+    --button-text-weight: 400;
+}
+
+
+.content .tango {
+    --background-color: rgb(34, 43, 56);
+    --height-main-photo: 12em;
+    --margin-top-main-photo: 1em;
+
+    --primary-header-color: #E8AD42;
+    --header-color: white;
+
+    --border-top-description: #D8BDBD;
+    --description-text-color: white;
+    --description-text-weight: 300;
+    --border-bottom-description: white;
+
+    --button-color: white;
+    --button-text-color: black;
+    --button-text-weight: 400;
+}
+
+.content .porsche {
+    --background-color: #B5C4C1;
+    --height-main-photo: 6em;
+    --margin-top-main-photo: 6em;
+
+    --primary-header-color: #32323E;
+    --header-color: #32323E;
+
+    --border-top-description: #4D3A00;
+    --description-text-color: #32323E;
+    --border-bottom-description: #32323E;
+
+    --button-color: #757575;
+    --button-text-color: white;
+    --button-text-weight: 300;
+}
+
+.content .startup1 {
+    --background-color: black;
+    --height-main-photo: 8.1em;
+    --margin-top-main-photo: 5em;
+
+    --primary-header-color: #FFBF00;
+    --header-color: #ffffff;
+
+    --border-top-description: #4D3A00;
+    --description-text-color: white;
+    --border-bottom-description: #FFBF00;
+
+    --button-color: #ffffff;
+    --button-text-color: black;
+    --button-text-weight: 500;
+}
+
+.content .startup2 {
+    --background-color: black;
+    --height-main-photo: 8.1em;
+    --margin-top-main-photo: 5em;
+
+    --primary-header-color: #FFBF00;
+    --header-color: #ffffff;
+
+    --border-top-description: #481813;
+    --description-text-color: white;
+    --border-bottom-description: #EE4F3F;
+
+    --button-color: #ffffff;
+    --button-text-color: black;
+    --button-text-weight: 500;
+}
+
+.content .provectus-logo {
+    --background-color: rgb(226, 250, 242);
+    --height-main-photo: 12em;
+    --margin-top-main-photo: 2em;
+
+    --primary-header-color: #F83A5A;
+    --header-color: #1A61A2;
+
+    --border-top-description: #aec6dd;
+    --description-text-color: rgb(14, 101, 182);
+    --description-text-weight: 400;
+    --border-bottom-description: #4176a7;
+
+    --button-color: #5A98BB;
+    --button-text-color: white;
+    --button-text-weight: 300;
+}
+
+.content .ipad {
+    --background-color: #FFFFFF;
+    --height-main-photo: 12em;
+    --margin-top-main-photo: 2em;
+
+    --primary-header-color: #B3B3B3;
+    --header-color: #B3B3B3;
+
+    --border-top-description: #ECECEC;
+    --description-text-color: #000000;
+    --description-text-weight: 300;
+    --border-bottom-description: #B3B3B3;
+
+    --button-color: #B3B3B3;
+    --button-text-color: #000000;
+    --button-text-weight: normal;
+}
+
+/* code */
+
+.content .impact-hub {
+    --background-color: white;
+    --height-main-photo: 12em;
+    --margin-top-main-photo: 0em;
+
+    --primary-header-color: #812927;
+    --header-color: #F78A3C;
+
+    --border-top-description: #D8BDBD;
+    --description-text-color: #812927;
+    --description-text-weight: 300;
+    --border-bottom-description: #812927;
+
+    --button-color: #812927;
+    --button-text-color: white;
+    --button-text-weight: 300;
+}
+
+.content .service-mobile {
+    --background-color: white;
+    --height-main-photo: 12em;
+    --margin-top-main-photo: 2em;
+
+    --primary-header-color: #FFB500;
+    --header-color: #121212;
+
+    --border-top-description: #4141412f;
+    --description-text-color: black;
+    --description-text-weight: 300;
+    --border-bottom-description: #121212;
+
+    --button-color: #FFB500;
+    --button-text-color: #121212;
+    --button-text-weight: 300;
+}
